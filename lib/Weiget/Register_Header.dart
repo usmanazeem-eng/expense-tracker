@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class LoginHeader extends StatelessWidget {
-  const LoginHeader({super.key});
+class RegisterHeader extends StatelessWidget {
+  const RegisterHeader({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 280,
+      height: 250,
       width: double.infinity,
       decoration: const BoxDecoration(
         gradient: LinearGradient(
@@ -23,11 +23,11 @@ class LoginHeader extends StatelessWidget {
           CircleAvatar(
             radius: 36,
             backgroundColor: Colors.white24,
-            child: Icon(Icons.wallet, color: Colors.white, size: 40),
+            child: Icon(Icons.person_add, color: Colors.white, size: 40),
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 16),
           Text(
-            'Welcome Back',
+            'Create Account',
             style: TextStyle(
               color: Colors.white,
               fontSize: 26,

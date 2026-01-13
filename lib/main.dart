@@ -1,4 +1,4 @@
-import 'package:expense_tracker/Views/SplashScreen.dart';
+import 'package:expense_tracker/Views/Login_view/SplashScreen.dart';
 import 'package:flutter/material.dart';
 import 'route/route.dart';
 

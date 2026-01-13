@@ -1,6 +1,6 @@
-import 'package:expense_tracker/Custom/line.dart';
+import 'package:expense_tracker/Weiget/line.dart';
 import 'package:flutter/material.dart';
-import 'package:expense_tracker/Views/Login.dart';
+import 'package:expense_tracker/Views/Login_view/Login.dart';
 
 class SplashScreen extends StatefulWidget {
   static const String id = '/';

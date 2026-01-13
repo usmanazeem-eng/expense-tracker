@@ -13,11 +13,11 @@ class _LoadingLineState extends State<LoadingLine> {
   @override
   void initState() {
     super.initState();
-    // Start animation in next frame
+
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted) {
         setState(() {
-          width = 140; // Full width
+          width = 140;
         });
       }
     });
@@ -34,7 +34,7 @@ class _LoadingLineState extends State<LoadingLine> {
       ),
       alignment: Alignment.centerLeft,
       child: AnimatedContainer(
-        duration: const Duration(seconds: 5), // Match Splash Screen duration
+        duration: const Duration(seconds: 5),
         curve: Curves.linear,
         width: width,
         height: 4,
